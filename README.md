@@ -10,13 +10,18 @@ PC has the following already installed:
 1. Open VS Code 
 2. Open the Terminal window
 3. Change directory in command prompt to required folder that you want to install the Repo
-4. Git Clone/Pull down "master" branch to specified directory
+4. Git Clone/Pull down "main" branch to specified directory
 6. Run
 
-      "npm install cypress --save-dev"
+       npm install cypress --save-dev
 
-7. Run 
-      "npm install --save-dev cypress-file-upload"
+7. Run
+       
+       npm install --save-dev cypress-file-upload
 
-9. To Run Cypress Tests "npm run cy:open" (Defined in Package.json under Scripts)
-10. Run the FileUploader test
+9. To Run Cypress Tests 
+
+       npm run cy:open
+(Defined in Package.json under Scripts)
+
+14. Run the FileUploader test
