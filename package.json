@@ -6,9 +6,13 @@
   "dependencies": {
     "cypress": "^7.5.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.7"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open --config watchForFileChanges=false",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
