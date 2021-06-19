@@ -5,6 +5,7 @@ PC has the following already installed:
 - Node.js
 - NPM
 - Visual Studio Code
+(Optional: Cypress is already installed)
 
 ## Steps to run test:
 1. Open VS Code 
