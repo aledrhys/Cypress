@@ -11,17 +11,16 @@ PC has the following already installed:
 2. Open the Terminal window
 3. Change directory in command prompt to required folder that you want to install the Repo
 4. Git Clone/Pull down "main" branch to specified directory
-6. Run
+5. Run
 
        npm install cypress --save-dev
 
-7. Run
+6. Run
        
        npm install --save-dev cypress-file-upload
 
-9. To Run Cypress Tests 
+7. To Run Cypress Tests (Defined in Package.json under Scripts)
 
        npm run cy:open
-(Defined in Package.json under Scripts)
 
-14. Run the FileUploader test
+8. Run the FileUploader test
