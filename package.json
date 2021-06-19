@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^7.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aledrhys/Cypress.git"
+  },
+  "author": "Aled_Rhys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aledrhys/Cypress/issues"
+  },
+  "homepage": "https://github.com/aledrhys/Cypress#readme"
+}
